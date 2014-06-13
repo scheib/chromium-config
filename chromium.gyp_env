@@ -1,6 +1,10 @@
 {
   'GYP_DEFINES':
      'component=shared_library '
+     'clang=1 '
+     'use_goma=1 '
      'dcheck_always_on=1 '
 #     'disable_nacl=1 '
+#     'chromeos=1 '
+#     'branding=Chrome buildtype=Official '
 }
