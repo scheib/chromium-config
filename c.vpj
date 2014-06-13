@@ -168,9 +168,9 @@
     </CustomFolders>
     <Files AutoFolders="DirectoryView">
         <Folder Name="src">
-            <Folder Name="app">
+            <Folder Name="apps">
                 <F
-                    N="src/app/*"
+                    N="src/apps/*"
                     Recurse="1"
                     Excludes=".svn/;.git"/>
             </Folder>
@@ -179,12 +179,6 @@
                     N="src/base/*"
                     Recurse="1"
                     Refilter="0"
-                    Excludes=".svn/;.git"/>
-            </Folder>
-            <Folder Name="build">
-                <F
-                    N="src/build/*.*"
-                    Recurse="1"
                     Excludes=".svn/;.git"/>
             </Folder>
             <Folder Name="chrome">
@@ -207,9 +201,9 @@
                     Refilter="0"
                     Excludes=".svn/;.git"/>
             </Folder>
-            <Folder Name="gpu">
+            <Folder Name="extensions">
                 <F
-                    N="src/gpu/*"
+                    N="src/extensions/*"
                     Recurse="1"
                     Excludes=".svn/;.git"/>
             </Folder>
@@ -220,169 +214,10 @@
                     Refilter="0"
                     Excludes=".svn/;.git"/>
             </Folder>
-            <Folder Name="testing">
+            <Folder Name="ppapi">
                 <F
-                    N="src/testing/*"
+                    N="src/ppapi/*"
                     Recurse="1"
-                    Excludes=".svn/;.git"/>
-            </Folder>
-            <Folder Name="third_party">
-                <Folder Name="WebKit">
-                    <Folder Name="LayoutTests">
-                        <Folder Name="fast">
-                            <Folder Name="js">
-                                <Folder Name="resources">
-                                    <F
-                                        N="src/third_party/WebKit/LayoutTests/fast/js/resources/*"
-                                        Recurse="1"
-                                        Refilter="0"
-                                        Excludes=".svn/;.git"/>
-                                </Folder>
-                            </Folder>
-                        </Folder>
-                        <Folder Name="http">
-                            <Folder Name="tests">
-                                <Folder Name="pointer-lock">
-                                    <F
-                                        N="src/third_party/WebKit/LayoutTests/http/tests/pointer-lock/*"
-                                        Recurse="1"
-                                        Excludes=".svn/;.git"/>
-                                </Folder>
-                                <Folder Name="resources">
-                                    <F
-                                        N="src/third_party/WebKit/LayoutTests/http/tests/resources/*"
-                                        Recurse="1"
-                                        Excludes=".svn/;.git"/>
-                                </Folder>
-                            </Folder>
-                        </Folder>
-                        <Folder Name="pointer-lock">
-                            <F
-                                N="src/third_party/WebKit/LayoutTests/pointer-lock/*"
-                                Recurse="1"
-                                Excludes=".svn/;.git"/>
-                        </Folder>
-                    </Folder>
-                    <Folder Name="Source">
-                        <Folder Name="JavaScriptCore">
-                            <Folder Name="wtf">
-                                <F
-                                    N="src/third_party/WebKit/Source/JavaScriptCore/wtf/*"
-                                    Recurse="1"
-                                    Refilter="0"
-                                    Excludes=".svn;.git"/>
-                            </Folder>
-                        </Folder>
-                        <Folder Name="LayoutTests">
-                            <Folder Name="platform">
-                                <Folder Name="chromium">
-                                    <F
-                                        N="src/third_party/WebKit/Source/LayoutTests/platform/chromium/*.txt"
-                                        Recurse="0"
-                                        Refilter="0"
-                                        Excludes=""/>
-                                </Folder>
-                            </Folder>
-                        </Folder>
-                        <Folder Name="WTF">
-                            <F
-                                N="src/third_party/WebKit/Source/WTF/*"
-                                Recurse="1"
-                                Excludes=".git;.svn"/>
-                        </Folder>
-                        <Folder Name="WebCore">
-                            <Folder Name="bindings">
-                                <F
-                                    N="src/third_party/WebKit/Source/WebCore/bindings/*"
-                                    Recurse="1"
-                                    Refilter="0"
-                                    Excludes=""/>
-                            </Folder>
-                            <Folder Name="dom">
-                                <F
-                                    N="src/third_party/WebKit/Source/WebCore/dom/*"
-                                    Recurse="1"
-                                    Refilter="0"
-                                    Excludes=".svn;.git"/>
-                            </Folder>
-                            <Folder Name="html">
-                                <F
-                                    N="src/third_party/WebKit/Source/WebCore/html/*"
-                                    Recurse="1"
-                                    Excludes=".svn/;.git"/>
-                            </Folder>
-                            <Folder Name="page">
-                                <F
-                                    N="src/third_party/WebKit/Source/WebCore/page/*"
-                                    Recurse="1"
-                                    Refilter="0"
-                                    Excludes=".svn;.git"/>
-                            </Folder>
-                            <Folder Name="platform">
-                                <Folder Name="chromium">
-                                    <F
-                                        N="src/third_party/WebKit/Source/WebCore/platform/chromium/*"
-                                        Recurse="1"
-                                        Excludes=".svn/;.git"/>
-                                </Folder>
-                                <Folder Name="graphics">
-                                    <F
-                                        N="src/third_party/WebKit/Source/WebCore/platform/graphics/*"
-                                        Recurse="1"
-                                        Excludes=".svn/;.git"/>
-                                </Folder>
-                                <F
-                                    N="src/third_party/WebKit/Source/WebCore/platform/*"
-                                    Excludes=".svn/;.git"/>
-                            </Folder>
-                            <Folder Name="rendering">
-                                <F
-                                    N="src/third_party/WebKit/Source/WebCore/rendering/*"
-                                    Recurse="1"
-                                    Excludes=".svn/;.git"/>
-                            </Folder>
-                            <F
-                                N="src/third_party/WebKit/Source/WebCore/*"
-                                Recurse="0"
-                                Refilter="0"
-                                Excludes=".git;.svn"/>
-                        </Folder>
-                        <Folder Name="WebKit">
-                            <Folder Name="chromium">
-                                <F
-                                    N="src/third_party/WebKit/Source/WebKit/chromium/*"
-                                    Recurse="1"
-                                    Refilter="0"
-                                    Excludes=".svn/;.git"/>
-                            </Folder>
-                        </Folder>
-                    </Folder>
-                    <Folder Name="Tools">
-                        <Folder Name="DumpRenderTree">
-                            <Folder Name="chromium">
-                                <F
-                                    N="src/third_party/WebKit/Tools/DumpRenderTree/chromium/*"
-                                    Recurse="1"
-                                    Excludes=".svn/;.git"/>
-                            </Folder>
-                            <F
-                                N="src/third_party/WebKit/Tools/DumpRenderTree/*"
-                                Excludes=".svn/;.git"/>
-                        </Folder>
-                        <Folder Name="Scripts">
-                            <F
-                                N="src/third_party/WebKit/Tools/Scripts/*"
-                                Recurse="1"
-                                Excludes=".svn/;.git"/>
-                        </Folder>
-                    </Folder>
-                </Folder>
-            </Folder>
-            <Folder Name="tools">
-                <F
-                    N="src/tools/*"
-                    Recurse="1"
-                    Refilter="0"
                     Excludes=".svn/;.git"/>
             </Folder>
             <Folder Name="ui">
@@ -391,11 +226,21 @@
                     Recurse="1"
                     Excludes=".svn/;.git"/>
             </Folder>
-            <Folder Name="webkit">
-                <F
-                    N="src/webkit/*"
-                    Recurse="1"
-                    Excludes=".svn/;.git"/>
+        </Folder>
+        <Folder Name="../src">
+            <Folder Name="gtk+2.0-2.24.10">
+                <Folder Name="gdk">
+                    <F
+                        N="../src/gtk+2.0-2.24.10/gdk/*.*"
+                        Recurse="1"
+                        Excludes=".svn/;.git"/>
+                </Folder>
+                <Folder Name="gtk">
+                    <F
+                        N="../src/gtk+2.0-2.24.10/gtk/*.*"
+                        Recurse="1"
+                        Excludes=".svn/;.git"/>
+                </Folder>
             </Folder>
         </Folder>
     </Files>
