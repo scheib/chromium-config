@@ -194,6 +194,14 @@
                     Refilter="0"
                     Excludes=".svn/;.git"/>
             </Folder>
+            <Folder Name="components">
+                <Folder Name="keyed_service">
+                    <F
+                        N="src/components/keyed_service/*"
+                        Recurse="1"
+                        Excludes=".svn/;.git"/>
+                </Folder>
+            </Folder>
             <Folder Name="content">
                 <F
                     N="src/content/*"
