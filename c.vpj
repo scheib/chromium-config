@@ -209,6 +209,14 @@
                     Refilter="0"
                     Excludes=".svn/;.git"/>
             </Folder>
+            <Folder Name="device">
+                <Folder Name="bluetooth">
+                    <F
+                        N="src/device/bluetooth/*"
+                        Recurse="1"
+                        Excludes=".svn/;.git"/>
+                </Folder>
+            </Folder>
             <Folder Name="extensions">
                 <F
                     N="src/extensions/*"
@@ -222,33 +230,153 @@
                     Refilter="0"
                     Excludes=".svn/;.git"/>
             </Folder>
-            <Folder Name="ppapi">
-                <F
-                    N="src/ppapi/*"
-                    Recurse="1"
-                    Excludes=".svn/;.git"/>
+            <Folder Name="third_party">
+                <Folder Name="WebKit">
+                    <Folder Name="LayoutTests">
+                        <Folder Name="bluetooth">
+                            <F
+                                N="src/third_party/WebKit/LayoutTests/bluetooth/*"
+                                Recurse="1"
+                                Excludes=".svn/;.git"/>
+                        </Folder>
+                        <Folder Name="fast">
+                            <Folder Name="serviceworker">
+                                <F
+                                    N="src/third_party/WebKit/LayoutTests/fast/serviceworker/*"
+                                    Recurse="1"
+                                    Excludes=".svn/;.git"/>
+                            </Folder>
+                        </Folder>
+                        <Folder Name="http">
+                            <Folder Name="tests">
+                                <Folder Name="pointer-lock">
+                                    <F
+                                        N="src/third_party/WebKit/LayoutTests/http/tests/pointer-lock/*"
+                                        Recurse="1"
+                                        Excludes=".svn/;.git"/>
+                                </Folder>
+                                <Folder Name="resources">
+                                    <F
+                                        N="src/third_party/WebKit/LayoutTests/http/tests/resources/*"
+                                        Recurse="1"
+                                        Excludes=".svn/;.git"/>
+                                </Folder>
+                                <Folder Name="serviceworker">
+                                    <F
+                                        N="src/third_party/WebKit/LayoutTests/http/tests/serviceworker/*"
+                                        Recurse="1"
+                                        Excludes=".svn/;.git"/>
+                                </Folder>
+                            </Folder>
+                        </Folder>
+                        <Folder Name="pointer-lock">
+                            <F
+                                N="src/third_party/WebKit/LayoutTests/pointer-lock/*"
+                                Recurse="1"
+                                Excludes=".svn/;.git"/>
+                        </Folder>
+                        <Folder Name="resources">
+                            <F
+                                N="src/third_party/WebKit/LayoutTests/resources/*"
+                                Recurse="1"
+                                Excludes=".svn/;.git"/>
+                        </Folder>
+                    </Folder>
+                    <Folder Name="Source">
+                        <Folder Name="bindings">
+                            <Folder Name="core">
+                                <F
+                                    N="src/third_party/WebKit/Source/bindings/core/*"
+                                    Recurse="1"
+                                    Excludes=".svn/;.git"/>
+                            </Folder>
+                        </Folder>
+                        <Folder Name="core">
+                            <F
+                                N="src/third_party/WebKit/Source/core/*"
+                                Recurse="1"
+                                Excludes=".svn/;.git"/>
+                        </Folder>
+                        <Folder Name="modules">
+                            <Folder Name="bluetooth">
+                                <F
+                                    N="src/third_party/WebKit/Source/modules/bluetooth/*"
+                                    Recurse="1"
+                                    Excludes=".svn/;.git"/>
+                            </Folder>
+                            <Folder Name="geofencing">
+                                <F
+                                    N="src/third_party/WebKit/Source/modules/geofencing/*"
+                                    Recurse="1"
+                                    Excludes=".svn/;.git"/>
+                            </Folder>
+                            <Folder Name="geolocation">
+                                <F
+                                    N="src/third_party/WebKit/Source/modules/geolocation/*"
+                                    Recurse="1"
+                                    Excludes=".svn/;.git"/>
+                            </Folder>
+                            <Folder Name="notifications">
+                                <F
+                                    N="src/third_party/WebKit/Source/modules/notifications/*"
+                                    Recurse="1"
+                                    Excludes=".svn/;.git"/>
+                            </Folder>
+                            <Folder Name="serviceworkers">
+                                <F
+                                    N="src/third_party/WebKit/Source/modules/serviceworkers/*"
+                                    Recurse="1"
+                                    Excludes=".svn/;.git"/>
+                            </Folder>
+                            <Folder Name="vibration">
+                                <F
+                                    N="src/third_party/WebKit/Source/modules/vibration/*"
+                                    Recurse="1"
+                                    Excludes=".svn/;.git"/>
+                            </Folder>
+                        </Folder>
+                        <Folder Name="platform">
+                            <Folder Name="heap">
+                                <F
+                                    N="src/third_party/WebKit/Source/platform/heap/*"
+                                    Recurse="1"
+                                    Excludes=".svn/;.git"/>
+                            </Folder>
+                        </Folder>
+                        <Folder Name="web">
+                            <F
+                                N="src/third_party/WebKit/Source/web/*"
+                                Recurse="1"
+                                Excludes=".svn/;.git"/>
+                        </Folder>
+                        <Folder Name="wtf">
+                            <F
+                                N="src/third_party/WebKit/Source/wtf/*"
+                                Recurse="1"
+                                Excludes=".svn/;.git"/>
+                        </Folder>
+                        <F
+                            N="src/third_party/WebKit/Source/*.gyp"
+                            Recurse="1"
+                            Excludes=".svn/;.git"/>
+                        <F
+                            N="src/third_party/WebKit/Source/*.gypi"
+                            Recurse="1"
+                            Excludes=".svn/;.git"/>
+                    </Folder>
+                    <Folder Name="public">
+                        <F
+                            N="src/third_party/WebKit/public/*"
+                            Recurse="1"
+                            Excludes=".svn/;.git"/>
+                    </Folder>
+                </Folder>
             </Folder>
             <Folder Name="ui">
                 <F
                     N="src/ui/*"
                     Recurse="1"
                     Excludes=".svn/;.git"/>
-            </Folder>
-        </Folder>
-        <Folder Name="../src">
-            <Folder Name="gtk+2.0-2.24.10">
-                <Folder Name="gdk">
-                    <F
-                        N="../src/gtk+2.0-2.24.10/gdk/*.*"
-                        Recurse="1"
-                        Excludes=".svn/;.git"/>
-                </Folder>
-                <Folder Name="gtk">
-                    <F
-                        N="../src/gtk+2.0-2.24.10/gtk/*.*"
-                        Recurse="1"
-                        Excludes=".svn/;.git"/>
-                </Folder>
             </Folder>
         </Folder>
     </Files>
