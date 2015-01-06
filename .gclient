@@ -8,4 +8,4 @@ solutions = [
       'src/third_party/WebKit': None,
     },
     'safesync_url': ''
-  }
+  }]
