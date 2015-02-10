@@ -187,6 +187,14 @@
                     Excludes=".svn/;.git"
                     Recurse="1"/>
             </Folder>
+            <Folder Name="chromeos">
+                <Folder Name="dbus">
+                    <F
+                        N="src/chromeos/dbus/*bluetooth*.*"
+                        Recurse="1"
+                        Excludes=""/>
+                </Folder>
+            </Folder>
             <Folder Name="common">
                 <F
                     N="src/common/*"
