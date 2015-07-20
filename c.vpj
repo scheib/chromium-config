@@ -224,6 +224,12 @@
                         Recurse="1"
                         Excludes=".svn/;.git"/>
                 </Folder>
+                <Folder Name="test">
+                    <F
+                        N="src/device/test/*"
+                        Recurse="1"
+                        Excludes=""/>
+                </Folder>
             </Folder>
             <Folder Name="extensions">
                 <F
@@ -288,6 +294,12 @@
                                 N="src/third_party/WebKit/LayoutTests/resources/*"
                                 Recurse="1"
                                 Excludes=".svn/;.git"/>
+                        </Folder>
+                        <Folder Name="webexposed">
+                            <F
+                                N="src/third_party/WebKit/LayoutTests/webexposed/*"
+                                Recurse="1"
+                                Excludes=""/>
                         </Folder>
                     </Folder>
                     <Folder Name="Source">
