@@ -32,3 +32,4 @@ solutions = [
     }
   }
 ]
+target_os = ['android']
