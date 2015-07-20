@@ -9,7 +9,8 @@
 				"*.sln",
 				"*.gitignore",
 				"*.gitmodules",
-				"*.vcxproj.*"
+				"*.vcxproj.*",
+				"generatedimage.php"
 			],
 			"folder_exclude_patterns":
 			[
