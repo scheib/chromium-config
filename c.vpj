@@ -163,8 +163,7 @@
             Filters="*.bmp"/>
         <Folder
             Name="Other Files"
-            Filters="">
-        </Folder>
+            Filters=""></Folder>
     </CustomFolders>
     <Files AutoFolders="DirectoryView">
         <Folder Name="src">
