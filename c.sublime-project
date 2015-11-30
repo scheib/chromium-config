@@ -1,0 +1,32 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.vcproj",
+				"*.vcxproj",
+				"*.sln",
+				"*.gitignore",
+				"*.gitmodules",
+				"*.vcxproj.*",
+				"generatedimage.php"
+			],
+			"folder_exclude_patterns":
+			[
+				"out*",
+				"third_party",
+				".git",
+				".svn",
+				"Debug",
+				"Release"
+			],
+			"follow_symlinks": true,
+			"path": "src"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "src/third_party/WebKit"
+		}
+	]
+}

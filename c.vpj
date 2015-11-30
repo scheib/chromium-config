@@ -3,7 +3,8 @@
     Version="10.0"
     VendorName="SlickEdit"
     WorkingDir="src"
-    VCSProject="_git:">
+    VCSProject="_git:"
+    TagFile="Project">
     <Config
         Name="Release"
         Type="Makefile"
@@ -163,8 +164,7 @@
             Filters="*.bmp"/>
         <Folder
             Name="Other Files"
-            Filters="">
-        </Folder>
+            Filters=""></Folder>
     </CustomFolders>
     <Files AutoFolders="DirectoryView">
         <Folder Name="src">
@@ -186,6 +186,14 @@
                     N="src/chrome/*"
                     Excludes=".svn/;.git"
                     Recurse="1"/>
+            </Folder>
+            <Folder Name="chromeos">
+                <Folder Name="dbus">
+                    <F
+                        N="src/chromeos/dbus/*bluetooth*.*"
+                        Recurse="1"
+                        Excludes=""/>
+                </Folder>
             </Folder>
             <Folder Name="common">
                 <F
@@ -215,6 +223,12 @@
                         N="src/device/bluetooth/*"
                         Recurse="1"
                         Excludes=".svn/;.git"/>
+                </Folder>
+                <Folder Name="test">
+                    <F
+                        N="src/device/test/*"
+                        Recurse="1"
+                        Excludes=""/>
                 </Folder>
             </Folder>
             <Folder Name="extensions">
@@ -280,6 +294,12 @@
                                 N="src/third_party/WebKit/LayoutTests/resources/*"
                                 Recurse="1"
                                 Excludes=".svn/;.git"/>
+                        </Folder>
+                        <Folder Name="webexposed">
+                            <F
+                                N="src/third_party/WebKit/LayoutTests/webexposed/*"
+                                Recurse="1"
+                                Excludes=""/>
                         </Folder>
                     </Folder>
                     <Folder Name="Source">
