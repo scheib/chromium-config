@@ -1,12 +1,13 @@
 {
+  'variables': {
+    'google_api_key': 'AIzaSyB5xPRa167froOkV6d90414y0ETWm1PQkU',
+    'google_default_client_id': '1005135349943.apps.googleusercontent.com',
+    'google_default_client_secret': 'hnK2HogwFa3XlWsMuBaUpp6D'
+  },
   'GYP_DEFINES':
-     'use_goma=1 '
-     'clang=1 '
      'component=shared_library '
      'dcheck_always_on=1 '
-     'chromeos=1 '
-#    'asan=1 '
-#    'lsan=1 '
-#    'disable_nacl=1 '
-#    'branding=Chrome buildtype=Official '
+     'use_goma=1 '
+     'fastbuild=1 '
+#     'chromeos=1 '
 }

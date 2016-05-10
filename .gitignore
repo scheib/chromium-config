@@ -1,7 +1,0 @@
-*.sublime-workspace
-*.vpwhistu
-*.vtg
-.cros_cache
-.gclient_entries
-src
-src-internal

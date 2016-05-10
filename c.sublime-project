@@ -9,23 +9,21 @@
 				"*.sln",
 				"*.gitignore",
 				"*.gitmodules",
-				"*.vcxproj.*",
-				"generatedimage.php"
+				"*.vcxproj.*"
 			],
 			"folder_exclude_patterns":
 			[
+				"build",
 				"out*",
 				"third_party",
 				".git",
-				".svn",
 				"Debug",
 				"Release"
 			],
-			"follow_symlinks": true,
+			"name": "src",
 			"path": "src"
 		},
 		{
-			"follow_symlinks": true,
 			"path": "src/third_party/WebKit"
 		}
 	]
