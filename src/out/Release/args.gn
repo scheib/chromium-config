@@ -5,9 +5,9 @@
 
 is_debug = false
 is_component_build = true
-is_clang = true
+#is_clang = true
 symbol_level = 1  # Faster build with fewer symbols. -g1 rather than -g2
-target_os = "chromeos"
+#target_os = "chromeos"
 
 #_
 use_goma=true
