@@ -31,4 +31,4 @@ solutions = [
     }
   }
 ]
-target_os = ['android']
+# target_os = ['android']
