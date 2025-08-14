@@ -1,7 +1,10 @@
+.cipd/
+.cros_cache
+.gclient_entries
+.gclient_previous_sync_commits
+.gcs_entries
+src
+src-internal
 *.sublime-workspace
 *.vpwhistu
 *.vtg
-.cros_cache
-.gclient_entries
-src
-src-internal
