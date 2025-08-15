@@ -10,10 +10,8 @@ is_debug = true  # (default)
 
 # Other args you may want to set:
 is_component_build = true
-is_clang = true
 symbol_level = 1  # Faster build with fewer symbols. -g1 rather than -g2
 
 #_
-use_goma=true
 disable_incremental_isolated_processes=true  # for install_chrome_public_apk_incremental
 

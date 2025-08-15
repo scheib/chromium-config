@@ -6,4 +6,9 @@ solutions = [
     "custom_deps": {},
     "custom_vars": {},
   },
+  {
+    "url": "sso://chrome-internal/src-internal.git",
+    "managed": False,
+    "name": "src-internal",
+  },
 ]
