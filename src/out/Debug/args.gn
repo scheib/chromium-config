@@ -1,12 +1,8 @@
-# Build arguments go here. Examples:
-#   is_component_build = true
-#   is_debug = false
-# See "gn args <out_dir> --list" for available build arguments.
-
+# Set build arguments here. See `gn help buildargs`.
+use_remoteexec = true
 is_debug = true
-is_component_build = true
 symbol_level = 1  # Faster build with fewer symbols. -g1 rather than -g2
-target_os = "chromeos"
+# target_os = "chromeos"
 
 #_
 
